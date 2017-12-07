@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+.main-nav {
+  height: 75px;
+  background-color: #ccc;
+  padding-right: 15px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  color: green;
+  margin-top: 25px;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: green;
+}
+
+.hero {
+    height: 400px;
+    background: url("../img/mermaids.jpg");
+    height: 600px;
+    background: url("../img/mermaids.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.hero-text{
+    margin-top: 0;
+    text-align: center;
+}
+    /*** start column styles***/
+    .column-container {
+         padding:10px;
+    }
+  .column-container:after{
+      content:"";
+      display: block;
+      clear: both;
+    }
+    
+    .column{
+      width: 30%;
+      float: left;
+   
+      margin-left:2%;
+      border: 1px solid #000000;
+      text-align: center;
+    }
+    
+    .column-image{
+      width: 100%;
+      height:350px;
+    }
+    /*** end column styles***/
+    .footer-section{
+      width:33.3%;
+      text-align: center;
+      float:left;
+      
+    }
+  .diamond-container {
+  height: 150px;
+  width: 150px;
+}
+
+.sociL-media {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center {
+  margin: 0 auto;
+}
+.facebook .fa{
+  color:purple;
+  font-size:24px;
+  
+}

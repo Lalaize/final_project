@@ -1,0 +1,36 @@
+/*** start contact from section ***/
+ .contact-container:after {
+     
+     
+     
+ content: "";
+ display: block;
+ clear:both;
+ }
+ 
+ .from-container {
+     width: 50%;
+     margin: 0 auto;
+     float: left;
+ }
+ .map-container {
+     width: 50%;
+     float: left;
+ }
+ /*** end contact from section ***/
+ /*** start info section styles***/
+ .info-container {
+   padding: 20px 0px;
+ }
+ .info-container:after {
+  content:  "";
+  display: block;
+  clear: both;
+ }
+ .info-box{
+  float:  left;
+  width: 50%;
+  text-align: center; 
+  background-color:purple;
+  }
+  /***end info section styles***/
